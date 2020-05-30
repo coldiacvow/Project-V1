@@ -1,0 +1,189 @@
+body { 
+    font-family: arial, Helvetica, sans-serif;
+    background-color: #323232;
+   }
+
+.container {
+	width: 900px;
+	height: 600px;
+	background-color: #000000;
+	border: 3px solid #7400FF;
+	box-shadow: 0px 35px 22px -15px rgba(0,0,0.75);
+	display: flex;
+	justify-content: center;
+	margin: 30% auto;
+	flex-wrap: wrap;
+	position: relative;
+	border-radius: 8%;
+	}
+	
+.navbar li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 7px;
+	box-sizing: border-box;
+	}
+	
+.container .navbar a {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 22px;
+	text-decoration: none;
+	font-size: 23px;
+	font-weight: bold;
+	color: #FFBA00;
+	padding: 3px;
+	}
+	
+.navbar a:hover {
+	background-color: lightskyblue;
+	color: white;
+	}
+	
+.container .main ul {
+	list-style-type: none;
+	position: relative;
+	top: 20%;
+	right: 6em;
+	}
+	
+.btn {
+	margin: 25px;
+	box-sizing: border-box;
+	color: #00AFFF;
+	transform: translate(-0.3em, -0.1em);
+	}
+
+.btn:hover {
+	transform: scale(1.4);
+	color: #f1f1f1;
+	transition: 0.2s linear;
+	}
+	
+.docx h1 {
+	position: absolute;
+	left: 31%;
+	top: 30%;
+    transform: translate( -50%, -50%);
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+	box-sizing: border-box;
+	font-family: 'Chelsea Market', cursive;
+	}
+
+.docx p {
+	color: #CFCDD0;
+	font-size: 17px;
+    position: absolute;
+    top: 40%;
+    left: 11%;
+	}
+	
+.image {
+	transform: translate(-14em, 9%);
+	margin-top: 8%;
+	width: 20px;
+	background-size: cover;
+	height: 20px;
+	}
+	
+.name {
+    width: 150px;
+	padding: 8px 14px;
+	text-align: center;
+	border: 1px solid #3498DB;
+	border-radius: 100px;
+    outline: none;
+    transform: translate(-13.5em, 27em);
+    background: #9CAFC6;
+    position: absolute;
+    }
+
+.name:hover {
+    width: 170px;
+	transition: .4s ease;
+   }
+   
+.name::-webkit-input-placeholder{
+	color: black;
+	font-size: 17px;
+}
+
+.place h3 {
+	font-size: 40px;
+	font-family: arial, Helvetica, sans-serif;
+	color: #808091;
+	position: relative;
+	top: -5.5em;
+	left: 55px;
+	text-shadow: 0 5px 2px black;
+	}
+	
+.place p {
+	font-size: 25px;
+	font-family: arial, Helvetica, sans-serif;
+	color: #808091;
+	position: relative;
+	top: -10em;
+	left: 55px;
+	text-shadow: 0 5px 2px black;
+	}
+	
+.place h1 {
+	font-size: 45px;
+	font-family: arial, Helvetica, sans-serif;
+	color: #808091;
+	position: relative;
+	top: -5em;
+	left: 9em;
+	font-family: 'Chelsea Market', cursive;
+	text-shadow: 0 5px 2px black;
+	}
+	
+
+.button a {
+	position: relative;
+	display: inline-block;
+	padding: 5px 5px;
+	color: violet;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 4px;
+	font-size: 24px;
+	overflow: hidden;
+	transition: 0.2s;
+	font-size: 17px;
+	transform: translate(1.5em, 1.5em);
+	}
+
+.button a:hover {
+	color: white;
+	background: lightskyblue;
+	box-shadow: 0 0 10px #008EFF, 0 0 10px #008EFF, 0 0 25px #008EFF;
+	transition-delay: 0.2s;
+	}
+	
+.Log {
+	transform: translate(-10em, 4%)
+	}
+	
+.Log a {
+	position: relative;
+	display: inline-block;
+	padding: 5px 5px;
+	color: cyan;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 4px;
+	font-size: 24px;
+	overflow: hidden;
+	transition: 0.2s;
+	font-size: 17px;
+	}
+	
+.Log a:hover{
+	color: lightskyblue;
+	background: #008EEF;
+	box-shadow: 0 0 10px #008EEF, 0 0 10px #008EEF,  0 0 25px #008EEF;
+	transition-delay: 0.2s;
+	}
